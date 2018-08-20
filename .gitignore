@@ -1,0 +1,6 @@
+.idea/
+target/
+org.wso2.custom.authenticator.local.iml
+.classpath
+.project
+.settings/
