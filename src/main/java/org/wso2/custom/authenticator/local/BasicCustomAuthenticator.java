@@ -114,7 +114,7 @@ public class BasicCustomAuthenticator extends AbstractApplicationAuthenticator i
                     String st;
                     while((st = br.readLine()) != null){
                         String[] cred = st.split(":");
-                        if("admin".equals(cred[0]) && "admin".equals(cred[1])){
+                        if(username.equals(cred[0]) && "admin".equals(cred[1])){
                             authorization = true;
                         }
                         else{
